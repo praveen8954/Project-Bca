@@ -1,0 +1,205 @@
+body{
+    
+    background-image: url("/Homepage/bodybg.jpeg"); 
+     background-size: 100%;
+    
+}
+li a{
+    
+    text-decoration:none;
+    list-style: none;
+    color: white;
+}
+
+#profile-logo p{
+    color: white;
+  margin-left: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+ #profile-logo{
+    display: flex;
+    /* justify-content:center; */
+    align-self: center;
+    margin-left: 40px;
+    /* border: 2px solid rebeccapurple; */
+ }   
+.yellow{
+    height: 30px;
+    width: 30px;
+}
+ul{
+
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-left: 18em;
+}
+ul li{
+    
+    list-style: none;
+    
+    padding: 10px;
+   
+
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+}
+#righttop{
+    display: flex;
+    /* justify-content: right; */
+    /* margin-bottom: 50%; */
+    /* border: 2px solid red; */
+    margin-left: 4.5em;
+    align-self: center;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+#register{
+    background-color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    border-radius:5px;
+    width: 7em;
+}
+#login{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 7em;
+    color:white;
+    border-radius:5px;
+    margin-top: 8px;
+    background-color: green;
+}
+.dropdown-center{
+    display: flex;
+    align-self: center;
+    margin-left: 60px;
+} 
+    li a:hover{
+        background-color: #fff;
+        color: black;
+        border-radius: 4px;
+    }
+    #register:hover{
+        scale: 1.1;
+    }
+    #login:hover{
+        scale: 1.1;
+    }
+    footer{
+      
+        position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ 
+       
+    }
+    #footer{
+        margin-top: 2.5em;
+        margin-bottom: .5em;
+        background-color:rgb(108, 182, 158);
+    display: flex;
+    
+    /* align-self: center; */
+    /* justify-content: space-around; */
+    }
+    .footerul{ 
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footerul li{
+        list-style: none;
+        color: green;
+        /* font-weight: bold;
+        font-size: large; */
+        
+    }
+    
+    #copyright{
+        display: block;
+        text-align: center;
+        font-size: larger;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        padding: .5em;
+        /* margin-bottom: .5em; */
+    }
+
+    .card{
+        /* background-color:red; */
+        border: 2.5px solid rgb(12, 12, 12) ;
+        border-radius: 3px;
+         opacity: .9;
+         margin :4em;
+         /* flex-direction:row; */
+     }
+     #card{
+         /* position: inherit; */
+         /* border: .5px solid whitesmoke ; */
+         border-radius: 4px;
+         /* box-shadow: 20px 20px 10px 15px grey; */
+         /* margin-top: 10em; */
+         display: flex;
+         align-self: center;
+         justify-content: space-between;
+         flex-direction: row;
+          /* background:rgba(246, 169, 169, 0.835); */
+         /* width: max-content; */
+     }
+     .card:hover{
+         opacity: 1;
+         scale: 1.1;
+     }
+     .add{
+        height: 40px;
+        width: 4em;
+        /* margin-top: 10px;
+        margin-right: 5px; */  
+        margin-left: 2.5em; 
+        border-radius: 5px;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: large;
+        background-color:rgb(11, 211, 28);
+        color:white;
+    }
+    .add:hover{
+        background-color:green;
+        scale: .9;
+    
+    }
+    h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+    font-weight: bolder;
+    padding: 2px;
+    font-size: xxx-large;
+    margin-top: 1em;
+    color: black;
+    /* background:rgb(7, 7, 7); */
+    border-radius: 8px;
+    width:100%;
+    }
+   .instant_food{
+       margin: 30px 20px;
+       border: 3.5px solid black ;
+       border-radius: 8px;
+       /* box-shadow: 20px 20px 10px 15px rgb(253, 252, 252); */
+    }
+    .rupees{
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    section{
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
